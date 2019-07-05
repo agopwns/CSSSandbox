@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+  <title>Document</title>
+
+  <style>
+  body {
+    background: #264170;
+  }
+
+  #container {
+    border-radius: 2px;
+    background: #fff;
+    margin: 0 auto;
+    width: 320px;
+    height: 530px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #form-wrap p {
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+
+  .form-group {
+    width: 280px;
+    margin: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    color: #686767;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+  }
+
+  .form-group input {
+    border: 1px solid #eeeded;
+    border-radius: 3px;
+    width: 280px;
+    height: 20px;
+  }
+
+  button {
+    position: relative;
+    left: 20px;
+    background: #36c797;
+    border-style: none;
+    border-radius: 3px;
+    width: 280px;
+    height: 30px;
+    color: #fff;
+  }
+
+  #footer {
+    position: relative;
+    width: 280px;
+    box-sizing: border-box;
+    left: 20px;
+    bottom: -25px;    
+    
+  }
+
+  #footer p{
+    font-size: 12px;
+    line-height: 1.8em;
+    text-decoration: none;
+  }
+
+  #footer p a{
+    font-size: 12px;
+    line-height: 1.8em;
+    text-decoration: none;
+  }
+  
+  
+  #real-footer {
+    position: relative;
+    top: 53px;
+  }
+
+  #real-footer p {
+    color: #fff;
+  }
+
+  #real-footer p a {
+    color: #36c797;
+    text-decoration: none;
+  }
+
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="form-wrap">
+      <h1>Sign Up</h1>
+      <p>it's free and only takes a minutes</p>
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" name="firstName" id="first-name">
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" name="lastName" id="last-name">
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+      </div>
+      <div class="form-group">
+        <label for="password2">Confirm Password</label>
+        <input type="password" name="password2" id="password2">
+      </div>
+      <button>Sign Up</button>
+      <div id="footer">
+          <p>By clicking the Sing Up button. You agree to our
+            <br>
+            <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></p>
+      </div>
+      <div id="real-footer">
+        <p>Already have an account?
+        <a href="#">Login Here</a></p>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
